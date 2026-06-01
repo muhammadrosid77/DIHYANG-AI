@@ -3,7 +3,7 @@
  * Semua fetch ke backend FastAPI terpusat di sini.
  */
 
-const API_BASE = "/api";
+const API_BASE = import.meta.env.VITE_API_URL || "/api";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 

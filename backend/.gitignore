@@ -21,6 +21,7 @@ env/
 app/data/*.json
 app/data/*.csv
 !app/data/.gitkeep
+!app/data/dieng_retribusi.json
 
 # Models (if too large for git)
 # app/models/saved/*.pkl
