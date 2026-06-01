@@ -367,13 +367,6 @@ export default function InfoCenter() {
                         <div className="font-bold text-base" style={{ color: c.textPrimary }}>{hotel.price}</div>
                         <span className="text-xs" style={{ color: c.textMuted }}>/malam</span>
                       </div>
-                      <button
-                        className="px-4 py-2 rounded-xl text-sm font-semibold text-white transition-all hover:scale-105 disabled:opacity-40"
-                        disabled={!hotel.availability}
-                        style={{ background: hotel.availability ? c.gradientPrimary : "#9ca3af" }}
-                      >
-                        {hotel.availability ? "Pesan" : "Penuh"}
-                      </button>
                     </div>
                   </div>
                 </div>

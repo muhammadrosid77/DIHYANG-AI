@@ -115,8 +115,6 @@ export default function SmartItinerary() {
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-medium mb-4"
             style={{ backgroundColor: c.warningBg, color: "#92400e" }}
           >
-            <Sparkles className="w-3.5 h-3.5" />
-            Powered by AI
           </div>
           <h2 className="text-3xl font-bold mb-3" style={{ color: c.textPrimary }}>
             Smart Itinerary Wisata Dieng
